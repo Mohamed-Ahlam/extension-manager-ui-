@@ -1,8 +1,8 @@
-import logo from "../images/logo.svg"; // adjust path based on your file structure
-import sun from "../images/icon-sun.svg"; // adjust path based on your file structure
-import moon from "../images/icon-moon.svg"; // adjust path based on your file structure
+import logo from "../assets/images/logo.svg"; // adjust path based on your file structure
+import sun from "../assets/images/icon-sun.svg"; // adjust path based on your file structure
+import moon from "../assets/images/icon-moon.svg"; // adjust path based on your file structure
 
-import '../styles/Theme.css'
+import "../assets/styles/Theme.css";
 
 
 export default function Theme(prop) {

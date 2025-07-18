@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Notosan-Bold'; /* This is the name you'll use in font-family */
+  src: url('../static/NotoSans-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; /* Recommend using 'swap' for better performance*/
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: end; */
+
+    margin-top: 40px;
+
+}
+h1 {
+    font-family: 'Notosan-Bold', sans-serif;
+    color: white;
+}
+.button-primary{
+    padding: 20px;
+}
+
+.button-primary > button{
+    background-color: hsl(225, 23%, 24%);
+    color: white;
+
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-left: 15px;
+    font-size: 1.2rem;
+
+}
+
+.button-primary > button:focus{
+    outline: 2px solid hsl(3, 86%, 64%);
+}
+
+.button-primary > button:hover {
+  background-color: hsl(226, 11%, 37%);
+}
+
+.button-primary > button:active {
+  background-color: hsl(3, 86%, 64%);
+}
