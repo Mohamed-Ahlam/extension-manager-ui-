@@ -9,7 +9,7 @@ export default function Theme(prop) {
     let isDarkMode = true
   return (
     <div className="theme">
-      <img src={logo} alt="Logo" className="logo" style={{ color: "white" }} />
+      <img src={logo} alt="Logo" />
       <div>
         {isDarkMode ? (
           //   if in darkmode show light mode
