@@ -19,11 +19,11 @@ h1 {
     font-family: 'Notosan-Bold', sans-serif;
     color: white;
 }
-.button-primary{
+.buttons{
     padding: 20px;
 }
 
-.button-primary > button{
+.inactive-button{
     background-color: hsl(225, 23%, 24%);
     color: white;
 
@@ -36,14 +36,29 @@ h1 {
 
 }
 
-.button-primary > button:focus{
-    outline: 2px solid hsl(3, 86%, 64%);
+/* active */
+.active-button{
+    background-color: hsl(3, 86%, 64%);
+    color: black;
+
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-left: 15px;
+    font-size: 1.2rem;
 }
 
-.button-primary > button:hover {
+.inactive-button:focus{
+    outline: 2px solid hsl(3, 86%, 64%);
+    background-color: hsl(226, 11%, 37%);
+
+}
+
+.inactive-button:hover {
   background-color: hsl(226, 11%, 37%);
 }
 
-.button-primary > button:active {
+.inactive-button:active {
   background-color: hsl(3, 86%, 64%);
 }
